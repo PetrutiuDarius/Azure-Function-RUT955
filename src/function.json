@@ -5,12 +5,13 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "methods": [ "post" ]
+      "methods": ["post"]
     },
     {
       "type": "http",
       "direction": "out",
-      "name": "$return"
+      "name": "res"
     }
-  ]
+  ],
+  "scriptFile": "index.js"
 }
